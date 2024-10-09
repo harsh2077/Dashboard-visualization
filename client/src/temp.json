@@ -1,0 +1,39 @@
+{
+    "_id": {
+        "$oid": "66af2d442c7f2b9ad5935c64"
+    },
+    "end_year": "",
+    "intensity": {
+        "$numberInt": "6"
+    },
+    "sector": "Energy",
+    "topic": "oil",
+    "insight": "N-Hexane Market Hit at a CAGR of 5% by 2024 - PMR Report",
+    "url": "http://www.sbwire.com/press-releases/n-hexane-market-hit-at-a-cagr-of-5-by-2024-pmr-report-761520.htm",
+    "region": "World",
+    "start_year": "",
+    "impact": "",
+    "added": "January, 19 2017 00:55:52",
+    "published": "January, 18 2017 00:00:00",
+    "country": "",
+    "relevance": {
+        "$numberInt": "2"
+    },
+    "pestle": "Economic",
+    "source": "SBWire",
+    "title": "High demand for n-Hexane in oil extraction owing to its effectiveness and high yield is expected to propel the global n-Hexane Market.",
+    "likelihood": {
+        "$numberInt": "3"
+    },
+    "__v": {
+        "$numberInt": "0"
+    }
+}
+
+
+import React from "react";
+import { Box, Grid, Text, Stat, StatLabel, StatNumber, StatHelpText } from "@chakra-ui/react";
+import BarChart from "../Chart/BarChart"; // Make sure these paths match your file structure
+import PieChart from "../Chart/PieChart";
+import LineChart from "../Chart/LineChart";
+import ColumnChart from "../Chart/ColumnChart";
